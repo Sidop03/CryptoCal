@@ -1,13 +1,21 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import './App.css';
+import Convertor from './Convertor';
+import About from './pages/About';
+import {Route,Routes} from "react-router-dom";
+import Profile from './pages/Profile';
 
-const Navigation = () => {
+function App() {
 	return (
-		<nav>
-			<li><Link to="/about"><button>About</button></Link></li>
-			<li><Link to="/convertor"><button>Convertor</button></Link></li>
-		</nav>
-	)
+		<>
+			<Navigation/>
+				<Routes>
+					<Route path="/convertor" element={<Convertor/>}/>
+					<Route path="/" element={<Convertor/>}/>
+					<Route path="*" element={<Convertor/>}/>
+				</Routes>
+			
+		</>
+	);
 }
 
-export default Navigation
+export default App;
