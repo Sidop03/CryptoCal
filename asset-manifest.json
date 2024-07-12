@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/CryptoCal/static/css/main.601c7c1d.css",
-    "main.js": "/CryptoCal/static/js/main.931075f1.js",
+    "main.js": "/CryptoCal/static/js/main.1e8fdf1e.js",
     "static/js/453.d22d47a4.chunk.js": "/CryptoCal/static/js/453.d22d47a4.chunk.js",
     "index.html": "/CryptoCal/index.html",
     "main.601c7c1d.css.map": "/CryptoCal/static/css/main.601c7c1d.css.map",
-    "main.931075f1.js.map": "/CryptoCal/static/js/main.931075f1.js.map",
+    "main.1e8fdf1e.js.map": "/CryptoCal/static/js/main.1e8fdf1e.js.map",
     "453.d22d47a4.chunk.js.map": "/CryptoCal/static/js/453.d22d47a4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.601c7c1d.css",
-    "static/js/main.931075f1.js"
+    "static/js/main.1e8fdf1e.js"
   ]
 }
